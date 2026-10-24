@@ -1,0 +1,10 @@
+{
+  "name": "later",
+  "version": "0.1.0",
+  "description": "Stash tasks per repo with /later and start them from a side pane",
+  "author": {
+    "name": "Sok Visal"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

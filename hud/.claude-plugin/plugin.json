@@ -1,0 +1,9 @@
+{
+  "name": "hud",
+  "version": "0.1.0",
+  "description": "One-line session hud under the prompt: dir, branch, context, 5h/weekly usage limits with reset countdowns, running agents, model. Tokyo Night colours; a Nerd Font for the icons",
+  "author": { "name": "Sok Visal" },
+  "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
+  "types": "./types/index.d.ts"
+}

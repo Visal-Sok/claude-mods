@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#24283b"/>
+      <stop offset="1" stop-color="#16161e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7aa2f7" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- tile -->
+  <rect x="32" y="32" width="960" height="960" rx="200" fill="url(#bg)"/>
+  <rect x="32" y="32" width="960" height="960" rx="200" fill="none" stroke="#3b4261" stroke-width="8"/>
+  <!-- window dots -->
+  <circle cx="190" cy="190" r="26" fill="#f7768e"/>
+  <circle cx="270" cy="190" r="26" fill="#e0af68"/>
+  <circle cx="350" cy="190" r="26" fill="#9ece6a"/>
+  <!-- prompt: chevron and caret -->
+  <path d="M190 330 L300 410 L190 490" fill="none" stroke="#7aa2f7" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="350" y="450" width="190" height="40" rx="20" fill="#c0caf5"/>
+  <!-- divider glow: the hud sits under the prompt -->
+  <rect x="150" y="590" width="724" height="6" rx="3" fill="url(#glow)"/>
+  <!-- hud strip: five meter cells, filling green to yellow -->
+  <g>
+    <rect x="150" y="660" width="104" height="150" rx="30" fill="#9ece6a"/>
+    <rect x="280" y="660" width="104" height="150" rx="30" fill="#9ece6a"/>
+    <rect x="410" y="660" width="104" height="150" rx="30" fill="#e0af68"/>
+    <rect x="544" y="664" width="96" height="142" rx="26" fill="none" stroke="#565f89" stroke-width="8"/>
+    <rect x="674" y="664" width="96" height="142" rx="26" fill="none" stroke="#565f89" stroke-width="8"/>
+  </g>
+  <!-- model dot -->
+  <circle cx="840" cy="735" r="34" fill="#bb9af7"/>
+</svg>

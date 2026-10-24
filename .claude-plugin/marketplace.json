@@ -1,0 +1,21 @@
+{
+  "name": "claude-mods",
+  "owner": {
+    "name": "Sok Visal"
+  },
+  "metadata": {
+    "description": "Claude Code mods: a one-line session hud and a per-repo task stash"
+  },
+  "plugins": [
+    {
+      "name": "hud",
+      "source": "./hud",
+      "description": "One-line session hud under the prompt: dir, branch, context, usage limits, agents, model"
+    },
+    {
+      "name": "later",
+      "source": "./later",
+      "description": "Stash tasks per repo with /later and start them from a side pane"
+    }
+  ]
+}
